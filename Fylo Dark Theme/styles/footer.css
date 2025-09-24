@@ -37,3 +37,15 @@
 
     color: var(--cor-texto-branco);
 }
+
+
+.footer__list {
+
+    padding-left: 1.5rem;
+}
+
+.footer__list__texto {
+
+    color: var(--cor-texto-branco);
+    
+}
