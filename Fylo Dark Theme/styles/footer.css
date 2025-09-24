@@ -26,6 +26,7 @@
 
     display: flex;
     align-items: flex-start;
+    margin-bottom: 1.5rem;
 }
 
 .footer__dados__logo {
@@ -36,16 +37,30 @@
 .footer__dados__texto {
 
     color: var(--cor-texto-branco);
+    font-family: var(--fonte-secundaria)
 }
 
 
 .footer__list {
 
     padding-left: 1.5rem;
+    margin-top: 2rem;
 }
 
 .footer__list__texto {
 
+    margin-top: 1.2rem;
+}
+
+.footer__list__texto-link {
+
     color: var(--cor-texto-branco);
-    
+    font-family: var(--fonte-secundaria);
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.footer__lista__texto-espaço {
+
+    margin-top: 3rem;
 }
