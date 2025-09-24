@@ -1,0 +1,138 @@
+
+.reviews {
+
+    background: var(--cor-fundo-terciaria);
+    margin-top: -1px;
+    padding: 7rem 3rem 0 3rem;
+}
+
+.reviews__aspas {
+
+    width: 10%;
+}
+
+.reviews__pessoa {
+
+    background: var(--cor-fundo-primaria);
+    border: 1px solid transparent;
+    border-radius: 5%;
+    padding: 1.4375rem 1.25rem;
+}
+
+.reviews__pessoa__texto {
+
+    color: var(--cor-texto-branco);
+    font-size: 0.80rem;
+    font-family: var(--fonte-secundaria);
+    line-height: 180%;
+}
+
+.reviews__pessoa__perfil {
+
+    display: flex;
+    padding-top: 0.5rem;
+}
+
+.reviews__icon {
+
+    border: 1px solid transparent;
+    border-radius: 100%;
+    width: 2.2rem;
+}
+
+.review__descricao {
+
+    padding-left: 0.60rem;
+}
+
+.reviews__descricao__nome {
+
+    color: var(--cor-texto-branco);
+    font-size: 0.75rem;
+    font-weight: bold;
+    font-family: var(--fonte-secundaria);
+    text-decoration: none;
+    line-height: 150%;
+}
+
+.reviews__descricao__trabalho {
+
+    color: var(--cor-texto-branco);
+    font-size: 0.65rem;
+    font-weight: 400;
+    font-family: var(--fonte-secundaria);
+    line-height: 150%;
+}
+
+
+
+/*---- Cadastro ----*/
+.cadastro {
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 150px;
+    background: var(--cor-fundo-secundaria);
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 5%;
+    padding: 1rem;
+    margin: 0 -1rem;
+}
+
+.cadastro__titulo {
+
+    color: var(--cor-texto-branco);
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-family: var(--fonte-primaria);
+    line-height: 120%;
+}
+
+.cadastro__texto {
+
+    color: var(--cor-texto-branco);
+    font-size: 0.875rem;
+    font-family: var(--fonte-secundaria);
+    line-height: 21px;
+    margin: 1rem 0 1.5rem 0;
+    
+}
+
+.cadastro__email {
+
+    color: var(--cor-fundo-quartenaria);
+    font-size: 0.875rem;
+    font-family: var(--fonte-secundaria);
+    border: 1px solid transparent;
+    border-radius: 30px;
+    padding: 0.7rem 0.8rem;
+    margin: 0rem 1rem 1rem 1rem;
+    outline: none;
+    
+}
+
+.cadastro__email::placeholder {
+
+    color: var(--cor-texto-cinza);
+    font-size: 0.875rem;
+    font-family: var(--fonte-secundaria);
+    text-align: center; 
+    padding: 1rem 1rem;
+}
+
+.cadastro__botao {
+
+    background: var(--cor-gradiente);
+    color: var(--cor-texto-branco);
+    font-size: 0.875rem;
+    font-weight: bold;
+    font-family: var(--fonte-primaria);
+    text-decoration: none;
+    line-height: 120%;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    padding: 0.7rem 0.8rem;
+    margin: 0rem 1rem 1rem 1rem;
+}

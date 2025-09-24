@@ -1,0 +1,39 @@
+
+
+
+
+.footer {
+
+    background-color: var(--cor-fundo-quartenaria);
+    margin-top: -1px;
+    padding-top: 10rem;
+}
+
+.footer__container {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__logo {
+
+    width: 30%;
+    padding: 0 1.5rem;
+    margin: 4rem 0 1.5rem 0;
+}
+
+.footer__dados {
+
+    display: flex;
+    align-items: flex-start;
+}
+
+.footer__dados__logo {
+
+    padding: 0 1.75rem;
+}
+
+.footer__dados__texto {
+
+    color: var(--cor-texto-branco);
+}

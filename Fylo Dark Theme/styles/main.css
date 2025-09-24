@@ -1,0 +1,38 @@
+
+.main {
+
+    background: var(--cor-fundo-terciaria);
+    text-align: center;
+}
+
+.main__icon {
+
+    margin-top: 5rem;
+}
+
+.main__container {
+
+    margin: 0 4rem;
+}
+
+.main__container__bottom {
+
+    padding-bottom: 5.75rem;
+}
+
+.main__container__titulo {
+
+    color: var(--cor-texto-branco);
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-family: var(--fonte-primaria);
+    line-height: 3rem;
+}
+
+.main__container__texto {
+
+    color: var(--cor-texto-branco);
+    font-size: 0.875rem;
+    font-family: var(--fonte-secundaria);
+    line-height: 150%;
+}

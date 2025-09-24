@@ -1,0 +1,69 @@
+
+
+/*---- Banner ----*/
+.banner {
+    text-align: center;
+    background-color: var(--cor-fundo-primaria);
+    background-image: url("../images/bg-curvy-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% 8rem;
+    padding-bottom: 5rem;
+}
+
+.banner__logo {
+
+    width: 80%;
+}
+
+.banner-pt2 {
+
+    text-align: center;
+    background-color: var(--cor-fundo-terciaria);
+
+}
+
+.banner__container {
+
+    display: flex;
+    flex-direction: column;
+    margin: -1px;
+}
+
+.banner__container__titulo {
+
+    color: var(--cor-texto-branco);
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-family: var(--fonte-primaria);
+    line-height: 120%;
+}
+
+.banner__container__paragrafo {
+
+    color: var(--cor-texto-branco);
+    font-size: 0.875rem;
+    font-family: var(--fonte-secundaria);
+    line-height: 150%;
+    padding: 0.75rem 3rem 0.75rem 3rem;
+    margin: 1rem 0;
+
+}
+
+.banner__container__botao {
+
+    background: var(--cor-gradiente);
+    color: var(--cor-texto-branco);
+    font-size: 0.875rem;
+    font-weight: bold;
+    font-family: var(--fonte-primaria);
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    padding: 1.2rem;
+    margin: 0 5rem 5.75rem 5rem;
+
+}
+
+
+

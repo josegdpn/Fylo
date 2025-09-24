@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("./styles/header.css");
+@import url("./styles/banner.css");
+@import url("./styles/main.css");
+@import url("./styles/description.css");
+@import url("./styles/reviews.css");
+@import url("./styles/footer.css");
+
+:root {
+
+    /*---- Colors ----*/
+    --cor-fundo-primaria: #202A3C;
+    --cor-fundo-secundaria: #1B2330;
+    --cor-fundo-terciaria: #181F2B;
+    --cor-fundo-quartenaria: #0B1524;
+
+    --cor-texto-branco: #ffffff;
+    --cor-texto-cinza: #C0C0C0;
+    --cor-texto-verde: #63e1d9;
+
+    --cor-gradiente: linear-gradient(to right, #63e1d9, #34a0cd);
+
+
+    /*---- Font Size ----*/
+    --fonte-primaria: 'Raleway', sans-serif;
+    --fonte-secundaria: 'Open Sans', sans-serif;
+}
