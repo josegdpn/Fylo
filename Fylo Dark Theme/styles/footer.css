@@ -37,13 +37,15 @@
 .footer__dados__texto {
 
     color: var(--cor-texto-branco);
-    font-family: var(--fonte-secundaria)
+    font-size: 1rem;
+    font-family: var(--fonte-secundaria);
+    line-height: 150%;
 }
 
 
 .footer__list {
 
-    padding-left: 1.5rem;
+    padding: 0 0 3rem 1.5rem;
     margin-top: 2rem;
 }
 
@@ -55,12 +57,23 @@
 .footer__list__texto-link {
 
     color: var(--cor-texto-branco);
-    font-family: var(--fonte-secundaria);
     font-size: 1rem;
+    font-family: var(--fonte-secundaria);
     text-decoration: none;
 }
 
 .footer__lista__texto-espaço {
 
     margin-top: 3rem;
+}
+
+.footer__social__media {
+
+    padding: 1rem 0 2rem 0;
+    text-align: center;
+}
+
+.footer__social__media-img {
+
+    padding: 0 0.5rem 0 0.5rem;
 }
