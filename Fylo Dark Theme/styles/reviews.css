@@ -80,6 +80,8 @@
     border-radius: 5%;
     padding: 1rem;
     margin: 0 -1rem;
+    box-shadow:
+      3px 3px 5px 2px rgba(0, 0, 0, 0.5);
 }
 
 .cadastro__titulo {
@@ -106,6 +108,7 @@
     color: var(--cor-fundo-quartenaria);
     font-size: 0.875rem;
     font-family: var(--fonte-secundaria);
+    line-height: 150%;
     border: 1px solid transparent;
     border-radius: 30px;
     padding: 0.7rem 0.8rem;
@@ -136,4 +139,73 @@
     border-radius: 30px;
     padding: 0.7rem 0.8rem;
     margin: 0rem 1rem 1rem 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    
+    .reviews {
+
+        position: relative;   
+        padding: 4.5rem 10rem 0 10rem;
+    }
+
+    .reviews__pessoa {
+
+        border: 1px solid transparent;
+        border-radius: 1%;
+        padding: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .reviews__pessoa__texto {
+
+        font-size: 0.875rem;
+        line-height: 150%;
+    }
+
+    .review__descricao {
+
+        padding-top: .3125rem;
+    }
+
+    .reviews__descricao__nome {
+
+        font-size: 0.625rem;
+        font-weight: bold;
+        letter-spacing: 0.5px;
+        line-height: 20%;
+    }
+
+    .reviews__descricao__trabalho {
+
+        font-size: .4375rem;
+        letter-spacing: 0.5px;
+        line-height: 10px;
+    }
+
+
+
+    /*---- Cadastro ----*/
+    .cadastro {
+
+        border-radius: 3%;
+        padding: 3rem 3rem; 
+        margin: -7rem 0.5px 0 0.5px;
+    }
+
+    .cadastro__texto {
+
+        padding: 0 3rem;
+        margin: 1.5rem 0;
+    }
+
+    .cadastro__email {
+
+        padding: 1rem 1rem;
+    }
+
+    .cadastro__botao {
+
+        padding: 1.2rem 1.2rem;
+    }
 }
