@@ -24,7 +24,7 @@
 
     display: flex;
     align-items: flex-start;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .footer__dados__logo {
@@ -79,7 +79,7 @@
 
 
 @media screen and (min-width: 768px) {
-    
+
     .footer__logo {
         
         width: 15%;
@@ -111,6 +111,19 @@
         margin-left: -5rem;
     }
 
+    .footer__list__left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__list__right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 2rem;
+    }
+
     .footer__telefone {
 
         margin-left: -1rem;
@@ -119,7 +132,7 @@
     .footer__links-social {
         display: grid;
         grid-template-columns: repeat(4, auto); 
-        grid-template-rows: auto auto;          
+        grid-template-rows: unset;          
         padding: 0 0 5rem 4rem;                      
         align-items: center;
 
@@ -154,12 +167,61 @@
 
 @media screen and (min-width: 1280px) {
 
-    .footer__logo {
+  .footer__logo {
+    padding-left: 7rem;
+    width: 10%;
+  }
 
-        padding-left: 7rem;
-        width: 10%;
+  .footer__container__bloco {
+    display: flex;
+  }
+
+  .footer__gps {
+    display: flex;
+    align-items: flex-start; 
+    padding: 1rem 0 0 3.5rem;
+    gap: 1rem; 
+    max-width: 600px; 
+  }
+
+  .footer__container__telefone {
+    padding-top: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .footer__links-social {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3.2px 19px;
+    padding-left: 1rem;
+    margin-top: -2rem;
+  }
+  
+
+    /* Coluna 1 */
+    .footer__list__texto:nth-child(1) { grid-column: 1; grid-row: 1; }
+    .footer__list__texto:nth-child(2) { grid-column: 1; grid-row: 2; }
+    .footer__list__texto:nth-child(3) { grid-column: 1; grid-row: 3; }
+    .footer__list__texto:nth-child(4) { grid-column: 1; grid-row: 4; }
+
+    /* Coluna 2 */
+    .footer__list__texto:nth-child(5) { grid-column: 2; grid-row: 1; }
+    .footer__list__texto:nth-child(6) { grid-column: 2; grid-row: 2; }
+    .footer__list__texto:nth-child(7) { grid-column: 2; grid-row: 3; }
+
+    .footer__list__texto {
+    display: flex;             
+    justify-content: center;
+    align-items: center;       
     }
 
+    .footer__list__texto__first {
 
+        margin-bottom: -2rem;
+    }
+
+    .footer__social__media-img {
+
+        padding: 1rem 0 0 1rem;
+    }
 }
-
