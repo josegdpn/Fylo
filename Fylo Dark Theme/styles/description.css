@@ -61,3 +61,25 @@
         font-size: 1rem;
     }
 }
+
+
+
+@media screen and (min-width: 1280px) {
+    
+    .descricao {
+
+        display: flex;
+    }
+
+    .banner__descricao {
+
+        padding-left: 4rem;
+        width: 100%;
+    }
+
+    .descricao__container {
+
+        padding-left: 2rem;
+    }
+}
+

@@ -61,7 +61,7 @@
     border: 1px solid transparent;
     border-radius: 30px;
     padding: 1.2rem;
-    margin: 0 5rem 5.75rem 5rem;
+    margin: 0 5rem 8rem 5rem;
 
 }
 
@@ -83,7 +83,7 @@
 
     .banner__container__paragrafo {
 
-        font-size: 1.25rem
+        font-size: 1.25rem;
     }
 
     .banner__container__botao {
@@ -95,6 +95,19 @@
 }
 
 @media screen and (min-width: 1280px) {
-    
 
+    .banner__logo {
+
+        width: 60%;
+    }
+
+    .banner__container__textos {
+
+        padding: 0 20rem;
+    }
+
+    .banner__container__botao {
+
+        margin: 0rem 30rem;
+    }
 }

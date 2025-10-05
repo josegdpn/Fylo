@@ -5,7 +5,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: var(--cor-fundo-primaria);
-    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    padding: 1.5rem 1.5rem 0rem 1.5rem;
     margin-bottom: -1px;
 }
 
@@ -66,11 +66,23 @@
 
 }
 
-@media screen and (min-width:1280px) {
+@media screen and (min-width: 1280px) {
     
     .cabecalho__container {
 
         padding: 5rem 3rem 5rem 3rem;
     }
-}
 
+    .cabecalho__container__logo {
+
+        width: 15%;
+        padding-left: 4rem;
+    }
+
+    .cabecalho__container__texto_link-menor, 
+    .cabecalho__container__texto_link {
+
+        font-size: 1.5rem;
+    }
+
+}
