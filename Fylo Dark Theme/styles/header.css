@@ -30,6 +30,12 @@
     font-size: 0.9rem;
 }
 
+.cabecalho__container__texto_link-menor:active,
+.cabecalho__container__texto_link:active {
+
+    font-weight: bolder;
+}
+
 .cabecalho__container__texto_link-menor {
 
     color: var(--cor-texto-branco);

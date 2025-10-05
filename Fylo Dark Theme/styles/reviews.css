@@ -307,13 +307,14 @@
 
         font-size: 1.1rem;
         font-weight: bold;
-        width: 300px;
-        padding: 1.2rem 1rem; 
+        width: 350px;
+        padding: 1.5rem 1rem; 
         margin: 1rem 1rem 1rem 0;
     }
 
-    .footer__social__media {
+    .cadastro__botao:active {
 
-        padding: 1rem 0 3rem 0;
+        background: var(--cor-texto-verde-claro);
     }
+
 }

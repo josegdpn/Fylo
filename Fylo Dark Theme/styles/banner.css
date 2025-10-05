@@ -65,6 +65,10 @@
 
 }
 
+.banner__container__botao:active {
+
+    background: var(--cor-texto-verde-claro);
+}
 
 
 
