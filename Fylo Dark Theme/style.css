@@ -26,3 +26,8 @@
     --fonte-primaria: 'Raleway', sans-serif;
     --fonte-secundaria: 'Open Sans', sans-serif;
 }
+
+body {
+    
+    overflow-x: hidden;
+}

@@ -13,7 +13,7 @@
 .descricao__container {
 
     text-align: left;
-    padding: 0 2rem;
+    padding: 0 4rem;
 }
 
 .descricao__container__titulo {
@@ -84,7 +84,7 @@
 
     .descricao__container {
 
-        padding-left: 2rem;
+        padding-left: 8rem;
     }
 
     .descricao__container__titulo {
