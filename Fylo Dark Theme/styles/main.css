@@ -3,6 +3,7 @@
 
     background: var(--cor-fundo-terciaria);
     text-align: center;
+    padding-bottom: 0.85rem;
 }
 
 .main__icon {
@@ -26,7 +27,7 @@
     font-size: 1.25rem;
     font-weight: bold;
     font-family: var(--fonte-primaria);
-    line-height: 30%;
+    line-height: 130%;
     margin: 1.5rem;
 }
 
@@ -36,6 +37,7 @@
     font-size: 0.875rem;
     font-family: var(--fonte-secundaria);
     line-height: 150%;
+    margin: 0 auto;
 }
 
 
@@ -83,5 +85,8 @@
 
 @media screen and (min-width: 1280px) {
     
-    
+    .main {
+
+        padding: 10rem 10rem;
+    }
 }

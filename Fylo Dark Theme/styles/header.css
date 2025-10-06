@@ -11,7 +11,9 @@
 
 .cabecalho__container__logo {
 
-    width: 5.5rem;
+    width: 20%;
+    padding-left: 0.5rem;
+    max-width: 100px;
 }
 
 .cabecalho__container__lista {
@@ -61,7 +63,7 @@
 
     .cabecalho__container__logo {
 
-    width: 10rem;
+    max-width: 150px;
     }
 
     .cabecalho__container__texto_link-menor, .cabecalho__container__texto_link {
@@ -81,7 +83,7 @@
 
     .cabecalho__container__logo {
 
-        width: 15%;
+        max-width: 200px;
         padding-left: 4rem;
     }
 

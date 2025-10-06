@@ -8,7 +8,7 @@
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 100% 8rem;
-    padding-bottom: 5rem;
+    padding: 4rem 0 5rem 0;
 }
 
 .banner__logo {
@@ -33,7 +33,7 @@
 .banner__container__titulo {
 
     color: var(--cor-texto-branco);
-    font-size: 1.25rem;
+    font-size: 1.50rem;
     font-weight: bold;
     font-family: var(--fonte-primaria);
     line-height: 120%;
@@ -45,9 +45,8 @@
     font-size: 0.875rem;
     font-family: var(--fonte-secundaria);
     line-height: 150%;
-    padding: 0.75rem 3rem 0.75rem 3rem;
+    padding: 0.4rem 3rem 0.75rem 3rem;
     margin: 1rem 0;
-
 }
 
 .banner__container__botao {
@@ -62,7 +61,6 @@
     border-radius: 30px;
     padding: 1.2rem;
     margin: 0 5rem 8rem 5rem;
-
 }
 
 .banner__container__botao:active {
@@ -78,6 +76,11 @@
 
         background-color: var(--cor-fundo-secundaria);
         background-image: url("../images/bg-curvy-desktop.svg");
+    }
+
+    .banner__logo {
+
+        margin-top: -2rem;
     }
  
     .banner__container__titulo {
@@ -102,7 +105,7 @@
 
     .banner__logo {
 
-        width: 60%;
+
     }
 
     .banner__container__textos {
