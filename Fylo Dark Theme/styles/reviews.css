@@ -1,9 +1,12 @@
 
-.reviews {
+.reviews-section {
 
     background: var(--cor-fundo-terciaria);
+}
+
+.reviews {
+
     margin-top: -1px;
-    padding: 7rem 3rem 0 3rem;
 }
 
 .reviews__aspas {
@@ -227,7 +230,9 @@
  
     .reviews {
 
+        margin: -1px auto;
         padding-top: 12rem;
+        max-width: 1280px;
     }
 
     .reviews__aspas {
@@ -268,7 +273,8 @@
 
     .cadastro {
 
-        margin: 0 5rem 0 5rem;
+        margin: 0 auto;
+        max-width: 1000px;
     }
 
     .cadastro__container {

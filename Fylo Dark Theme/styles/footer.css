@@ -172,6 +172,12 @@
 
 @media screen and (min-width: 1280px) {
 
+    .footer__container {
+
+        margin: 0 auto;
+        max-width: 2000px;
+    }
+
   .footer__logo {
     padding-left: 7rem;
     width: 10%;

@@ -1,7 +1,11 @@
 
-.main {
+.main-section {
 
     background: var(--cor-fundo-terciaria);
+}
+
+.main {
+
     text-align: center;
     padding-bottom: 0.85rem;
 }
@@ -86,6 +90,7 @@
     
     .main {
 
+        max-width: 1600px;
         padding: 10rem 10rem;
     }
 }
