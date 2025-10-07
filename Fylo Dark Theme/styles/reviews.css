@@ -155,6 +155,11 @@
         padding: 4.5rem 10rem 0 10rem;
     }
 
+    .reviews__aspas {
+        
+        max-width: 55px;
+    }
+
     .reviews__pessoa {
 
         border: 1px solid transparent;
@@ -233,9 +238,11 @@
     .reviews__container {
 
         display: flex;
+        margin: 0 auto;
         gap: 2rem;          
         align-items: stretch; 
         padding-bottom: 3rem;
+        max-width: 1500px;
     }
 
     .reviews__pessoa {

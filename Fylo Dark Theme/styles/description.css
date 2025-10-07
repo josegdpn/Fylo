@@ -74,6 +74,7 @@
     .descricao {
 
         display: flex;
+        justify-content: center;
     }
 
     .banner__descricao {
